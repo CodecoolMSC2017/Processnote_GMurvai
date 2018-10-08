@@ -60,7 +60,7 @@ namespace ProcessNote
 
         private void button1_ButtonClicked(object sender, EventArgs e)
         {
-            if(richTextBox1.Text.Equals(""))
+            if(ProcessContainer != null && richTextBox1.Text.Equals(""))
             {
                 MessageBox.Show("you can't save an empty note");
             }

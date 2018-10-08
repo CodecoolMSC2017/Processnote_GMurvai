@@ -34,6 +34,8 @@ namespace ProcessNote
             };
         }
 
+       
+
         public TitleBarTab OpenStats(ProcessContainer processContainer)
         {
             String processName = processContainer.Process.ProcessName;

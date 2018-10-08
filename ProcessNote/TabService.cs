@@ -30,7 +30,7 @@ namespace ProcessNote
             // Set initial tab the first one
             appContainer.SelectedTabIndex = 0;
         }
-
+        // TODO search bugs!!! Try to find out how can open new tab with a new WinForm too
         public void AddNewTab(ProcessContainer processContainer)
         {
             appContainer.Tabs.Add(appContainer.OpenStats(processContainer));
